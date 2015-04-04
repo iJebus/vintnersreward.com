@@ -1,0 +1,164 @@
+body {
+    text-align: center;
+    color: snow;
+}
+p {
+    margin-top: 1rem;
+}
+i {
+    color: white;
+}
+#cover {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 9999;
+    text-align: center;
+    padding-top: 22.5rem;
+}
+
+/* Sections */
+
+#hero {
+    padding: 2.5rem 0 22.5rem 0;
+    background: url('../images/house.jpg');
+    background-size: cover;
+    background-position: right center;
+}
+#hero-text {
+    padding: 10rem 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/ocean.jpg');
+    background-size: cover;
+}
+#location {
+    padding: 4rem 0 15rem;
+    background-image: url('../images/outlook.jpg');
+    background-size: cover;
+}
+#location-text {
+    padding: 10rem 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/stream.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#produce {
+    padding: 15rem 0 20rem;
+    background-image: url('../images/grapes.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#produce-text {
+    padding: 10rem 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/ocean2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#explore {
+    padding: 7rem;
+    background-image: url('../images/kangaroos.jpg');
+    background-size: cover;
+    background-position: right center;
+}
+#explore-text {
+    padding: 4rem;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/bush_bird.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#end {
+    padding: 2rem 0 8rem 0;
+    background-image: url('../images/rain_bird.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#end .button {
+    margin-top: 20rem;
+}
+/* Larger than mobile */
+@media (min-width: 400px) {
+    
+}
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+    #cover {
+        padding-top: 30rem;
+    }
+    #hero {
+        padding: 10rem 0 60rem;
+    }
+    #hero-text {
+        padding: 40rem 0;
+    }
+    #location {
+        padding: 10rem 0 60rem;
+    }
+    #location-text {
+        padding: 35rem 0;
+    }
+    #produce {
+        padding: 10rem 0 60rem;
+    }
+    #produce-text {
+        padding: 35rem 0;
+    }
+    #explore {
+        padding: 10rem 0 60rem;
+        background-position: center;
+    }
+    #explore-text {
+        padding: 35rem 0;
+    }
+    #end {
+        padding: 10rem 0;
+    }
+    #end .button {
+        margin-top: 45rem;
+    }
+}
+/* Larger than tablet */
+@media (min-width: 750px) {
+    
+}
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    
+}
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    #cover {
+        padding-top: 30rem;
+    }
+    #hero {
+        padding: 10rem 0 85rem;
+    }
+    #hero-text {
+        padding: 50rem 0;
+    }
+    #location {
+        padding: 10rem 0 85rem;
+    }
+    #location-text {
+        padding: 50rem 0;
+    }
+    #produce {
+        padding: 10rem 0 85rem;
+    }
+    #produce-text {
+        padding: 50rem 0;
+    }
+    #explore {
+        padding: 20rem 0 75rem;
+    }
+    #explore-text {
+        padding: 50rem 0;
+    }
+    #end {
+        padding: 15rem 0;
+    }
+    #end .button {
+        margin-top: 65rem;
+    }
+}

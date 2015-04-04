@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Vintner's Reward</title>
+  <meta name="description" content="A beautiful holiday home located in the 
+  suburb of Quindalup of Western Australia. The perfect location for your next 
+  vacation, whether you're a local or coming from abroad.">
+  <meta name="author" content="Liam Jones">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- Javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+  <div id="cover">
+    <h1>Loading.</h1>
+  </div>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="section" id="hero">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h1>Vintner's Reward</h1>
+          <a href="#hero-text"><i class="fa fa-angle-double-down fa-4x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section"  id="hero-text">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <p>Vintner's Reward is a stunning holiday home found in the hills of Quindalup, and we think you'll find it's the perfect place to stay the next time you're visiting Western Australia's South-West region.</p>
+          <a href="#location"><i class="fa fa-angle-double-down fa-4x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="location">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>It's time to relax.</h2>
+          <a href="#location-text"><i class="fa fa-angle-double-down fa-4x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="location-text">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <p>Set in a rural valley overlooking a small lake, you'll immediately feel at ease. Whether relaxing out the front with a glass of wine or reclining indoors in comfort, it's hard not to appreciate the tranquility.</p>
+          <a href="#produce"><i class="fa fa-angle-double-down fa-4x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="produce">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>Enjoy the local produce.</h2>
+          <a href="#produce-text"><i class="fa fa-angle-double-down fa-4x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="produce-text">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <p>You may not have heard of Quindalup before, but you'll know the region. A little brother to Margaret River, it has a plethora of highly-rated wineries, breweries, restaurants and cafes. There's even a bakery just walking distance from the house.</p>
+          <a href="#explore"><i class="fa fa-angle-double-down fa-4x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="explore">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>Ready to explore?</h2>
+          <a href="#explore-text"><i class="fa fa-angle-double-down fa-4x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="explore-text">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <p>Caving, diving, hiking, mountain-biking, offroad-driving, sailing, snorkelling, shopping, surfing, swimming, walking, whale-watching. And that's just the beginning of all the activities waiting for you.
+          </p>
+          <a href="#end"><i class="fa fa-angle-double-down fa-4x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="end">
+    <div class="container">
+      <h1>What are you waiting for?</h1>
+      <a class="button button-primary" href="https://www.airbnb.com.au/rooms/4759512">Book a holiday.</a>
+    </div>
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script type="text/javascript">
+    $(window).on('load', function() {
+      $("#cover").fadeOut(500);
+    });
+  </script>
+
+    <script>
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  </script>
+
+
+</body>
+
+</html>
